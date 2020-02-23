@@ -1,0 +1,296 @@
+@charset 'UTF-8';
+
+/* 默认样式 */
+body,h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,p{margin:0;padding:0;}
+ul,li{list-style: none}
+a{text-decoration:none;color:#666;}
+a:hover{color:#1dbcdc;}
+/* 顶部导航条 */
+.topnav{
+	background: #252525;
+	height: 43px;
+	margin:0;
+	padding:0;
+}
+.container{
+	width: 1200px;
+	margin:0 auto;
+}
+.topnav .container p{
+	font:12px/40px '微软雅黑';
+	color: #fff;
+}
+.topnav .container p>span{
+	color: #fff;
+	float: right;
+	margin:0 20px;
+}
+.main{
+	width: 2000px;
+	margin:0 auto;
+}
+/* 头部和导航 */
+header{
+	height:105px;
+}
+header nav{
+	width: 1200px;
+	padding-top:33px;
+	overflow: hidden;
+	margin:0 auto;
+}
+header nav .logo{
+	width: 147px;
+	height: 48px;
+	float: left;
+	background: url(../images/logo.png) no-repeat;
+}
+header nav ul{
+	float: right;
+	margin-right: 75px;
+}
+header nav ul li{
+	line-height: 40px;
+	margin-right: 40px;
+	float: left;
+}
+header nav ul li a{
+	padding-bottom: 100px;
+}
+header nav ul li a:hover{
+	background: url(../images/nav_bg02.png) no-repeat center -23px;
+}
+/* 横幅 */
+.banner{
+	position: relative;
+}
+.banner img:last-child{
+	display: none;
+}
+.banner #btns a{
+	width: 6px;
+	height: 6px;
+	border:1px solid #ddd;
+	border-radius: 100%;
+	display: inline-block;
+	text-indent: -9999px;
+	padding:8px;
+	margin-right: 6px;
+}
+.banner #btns{
+	top:480px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+#btns a.on{
+	background: #fff;
+}
+/* 主体 */
+section{
+	width: 1200px;
+	margin:30px auto;
+}
+/* 介绍 */
+.introduce ul{
+	overflow: hidden;
+}
+.introduce ul li{
+	width: 400px;
+	float: left;
+	color: #fff;
+	text-align: center;
+	font:15px/30px '微软雅黑';
+}
+.introduce ul li div>div{
+	padding:42px 36px 0 36px;
+}
+.introduce ul li>.p1{
+	height: 210px;
+	background: url(../images/01.jpg) no-repeat;
+}
+.introduce ul li>.p2{
+	height: 210px;
+	background: url(../images/02.jpg) no-repeat;
+}
+.introduce ul li>.p3{
+	height: 210px;
+	background: url(../images/03.jpg) no-repeat;
+}
+/* 产品展示 */
+.product{
+	margin: 30px auto;
+	overflow: hidden;
+}
+.product .title_01{
+	height: 100px;
+	background: url(../images/nav_bg02.png) no-repeat left -7px;
+}
+.product .title_01>h2{
+	float: left;
+}
+.product .title_01>span{
+	color: #b1b5b8;
+	display: inline-block;
+	margin:5px 0 0 10px;
+}
+.pic{
+	float: left;
+	width: 600px;
+	height: 575px;
+}
+.pic img{
+	padding:0 25px 25px 0;
+}
+.pic_02{
+	width: 560px;
+	height: 575px;
+	float: right;
+}
+/* 关于我们 */
+.bg_01{
+	position: relative;
+}
+.bg_01 .title_02 h2,p{
+	color:#666;
+}
+.bg_01 .title_02{
+	height: 100px;
+	width: 680px;
+	text-align: center;
+	position: absolute;
+	top:82px;
+	left: 608px;
+	line-height: 43px;
+	background: url(../images/nav_bg02.png) no-repeat center -7px;
+}
+.bg_01 .title_02 span>a{
+	background: #21bcd8;
+	color: #fff;
+	padding: 10px;
+	border:1px solid #ddd;
+	border-radius: 30px;
+}
+/* 新闻动态 */
+.news{
+	margin-bottom:69px;
+	overflow: hidden;
+}
+.news .container{
+	margin: 91px 316px;
+}
+.news .title_03{
+	height: 100px;
+	background: url(../images/nav_bg02.png) no-repeat left -7px;
+}
+.news .title_03>h2{
+	float: left;
+}
+.news .title_03>span{
+	color: #b1b5b8;
+	display: inline-block;
+	margin:5px 0 0 10px;
+}
+.news ul li{
+	width: 368px;
+	margin-right:20px;
+	float: left;
+}
+.news ul li>p{
+	border-bottom: 1px dashed #ddd;
+	line-height: 35px;
+	font-size:10px;
+	overflow: hidden;
+}
+.news ul li p>span{
+	color:#21bcd8;
+}
+.news ul li p>em{
+	float: right;
+	font:12px/35px '微软雅黑';
+	color: #aaa;
+	font-style:normal;
+}
+/* 底部 */
+footer{
+	width: 100%;
+}
+footer .info{
+	height: 346px;
+	overflow: hidden;
+	background: #141414;
+}
+footer ul{
+	margin:73px 0 112px 320px;
+}
+footer .info ul li{
+	float: left;
+	margin-right: 171px;
+	line-height: 50px;
+	color: #6d6c67;
+}
+footer .info .p1{
+	width: 100px;
+	float: left;
+}
+footer .info .p2{
+	float: right;
+	padding-left: 40px;
+	width: 100px;
+}
+footer .bottom{
+	height: 76px;
+	text-align: center;
+	color: #fff;
+	background: #0c0c0c;
+	font:12px/80px '微软雅黑';
+}
+footer .title_04{
+	height: 60px;
+	color: #fcfafc;
+	background: url(../images/nav_bg02.png) no-repeat left -7px;
+}
+footer form{
+	width: 220px;
+	position: relative;
+}
+footer form input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	height: 44px;
+	
+}
+footer form button{
+	padding:11px;
+	right: -52px;
+	top: 0;
+	color: #fff;
+	position:absolute;
+	background:#3aa27f; 
+}
+footer .follow{
+	margin:20px 0;
+	position: relative;
+}
+footer .follow img{
+	top: 12px;
+	right: 72px;
+	position: absolute;
+}
+
+
+/* 回到顶部 */
+#backTop{
+	width: 50px;
+	height: 50px;
+	right: 40px;
+	bottom: 100px;
+	position:fixed;
+	background: #ddd;
+}
+#backTop a{
+	color: #fff;
+	margin-left: 11px;
+	line-height: 50px;
+}
